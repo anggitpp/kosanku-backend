@@ -140,9 +140,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\kosanku-backend\resources\views" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,11 +157,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616492679606</updated>
-      <workItem from="1616492680650" duration="2549000" />
+      <workItem from="1616492680650" duration="6638000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="543" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616560462154">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="543" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1616560462154" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1616560121545">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1616560121545" />
   </component>
 </project>

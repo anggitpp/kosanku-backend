@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\CityController;
+use App\Http\Controllers\RecommendedController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +18,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('dashboard');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+Route::middleware(['auth:sanctum', 'verified'])->group(function (){
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+    Route::resource('city', CityController::class);
+    Route::resource('recommended', RecommendedController::class);
+});
